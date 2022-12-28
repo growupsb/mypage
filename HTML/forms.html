@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+      <button type="submit">PLEASE DO NOT SUBMIT THE FORM</button>
+      <p>
+        <label for="username">Enter a Username:</label>
+        <input id="username" type="text" placeholder="이름을 입력하세요" />
+      </p>
+      <p>
+        <label for="password">Enter a Password:</label>
+        <input
+          type="password"
+          placeholder="비밀번호를 입력하세요"
+          id="password"
+        />
+      </p>
+      <button>IN THE MIDDLE</button>
+      <p>
+        <label for="color">Enter a color:</label>
+        <input type="color" id="color" />
+      </p>
+      <p>
+        <label for="month">Enter a month:</label>
+        <input type="month" id="month" />
+      </p>
+      <p>
+        <label for="range">Enter a range</label>
+        <input type="range" id="range" />
+      </p>
+      <p>
+        <label for="number">Enter a number</label>
+        <input type="number" placeholder="숫자를 선택하세요" id="number" />
+      </p>
+      <button>Submit</button>
+      <!-- <button type="submit">PLEASE DO NOT SUBMIT THE FORM</button> -->
+      <input type="submit" />
+    </form>
+  </body>
+</html>
